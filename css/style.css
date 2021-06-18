@@ -1,12 +1,26 @@
+/* Fonte que será utilizada no projeto */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+:root {
+	--color-green: #50fa7b;
+}
+
+/* ================================================= */
+/*        Reset das onfigurações de CSS padrão       */
+/* ================================================= */
 * {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
+/* ================================================= */
 
+/* ================================================= */
+/*                Estilo da Página Home              */
+/* ================================================= */
 body {
 	background: #282a36;
 	font-family: "Source Sans Pro", sans-serif;
+	color: #ffffff;
 }
 
 header {
@@ -19,7 +33,7 @@ header div {
 	text-align: center;
 }
 
-header div a {
+.links a {
 	color: #ffffff;
 	font-size: 18px;
 	line-height: 28px;
@@ -29,7 +43,46 @@ header div a {
 	text-transform: uppercase;
 }
 
-header div a:hover {
-	color: #50fa7b;
+.links a:hover {
+	color: var(--color-green);
 	transition: color 500ms;
 }
+
+#wrapper {
+	text-align: center;
+	padding: 30px;
+}
+
+#wrapper img {
+	height: 300px;
+	border-radius: 50%;
+	border: 5px solid var(--color-green);
+	margin-bottom: 32px;
+}
+
+#wrapper h1 {
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#wrapper h2 {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+#wrapper div {
+	margin-bottom: 32px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+footer a {
+	border: 5px solid #50fa7b;
+	padding: 5px;
+}
+/* ================================================= */
