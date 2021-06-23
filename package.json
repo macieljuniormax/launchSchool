@@ -1,0 +1,20 @@
+{
+  "name": "launchSchool-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macieljuniormax/launchSchool-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macieljuniormax/launchSchool-project/issues"
+  },
+  "homepage": "https://github.com/macieljuniormax/launchSchool-project#readme"
+}
